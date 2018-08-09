@@ -1,0 +1,49 @@
+.background-mobile{
+    background-color: #f1f1f1;
+}
+
+#logo-unimed-mobile{
+  width:250px;
+  height:100px;
+}
+
+.topo {
+    width: 100%;
+    height: 97px;
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #C3C8C8;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+.topo .centralizar {
+    width: 960px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.topo .logo {
+    width: 199px;
+    height: 62px;
+    float: left;
+    padding: 0px;
+    margin: 18px 18px 0 0;
+    background: url(/img/bg-logo.gif) no-repeat right 0;
+}
+.topo h2 {
+    font: 16px/90% 'Unimed Slab', "Trebuchet MS", Helvetica, sans-serif;
+    color: #00995d;
+    margin: 31px 50px 0 0;
+    float: left;
+}
+.topo h2 strong {
+    font-size: 20px;
+}
+
+.topo h1{
+  font-size: 24px;
+}
+
+*:not(input) {
+    user-select: none;
+}

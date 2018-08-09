@@ -1,0 +1,150 @@
+/* fontes */
+body {
+    font-size: 18px !important;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 27px !important;
+}
+
+h2 {
+    font-size: 24px !important;
+}
+
+h3 {
+    font-size: 21px !important;
+}
+
+/* cabeçalho */
+.login_nav {
+    display: none !important;
+}
+
+.navbar-header > img {
+    display: none;
+}
+
+.navbar {
+    margin-bottom: 0px;
+}
+
+/* rodapé */
+#rodape {
+    display: none;
+}
+
+/* Página login */
+.long_card .form-group .btn {
+    margin-bottom: 15px;
+}
+
+/* conteúdo geral */
+main h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+hgroup > h2 {
+    display: none !important;
+}
+
+main > hgroup:after {
+    display: none;
+}
+
+/* cards */
+section > .row .col-md-12 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+section > .row .card {
+    background-color: #eeebeb;
+    margin: 20px;
+    -webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.54);
+    -moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.54);
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.54);
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+section > .row .card .title h2 {
+    margin-bottom: 10px;
+}
+
+section > .row .card .title p {
+    font-size: 16px !important;
+}
+
+section > .row .card .more_info {
+    text-align: justify;
+}
+
+section > .row .card .buttons {
+    margin-bottom: 0 !important;
+}
+
+section > .row .card .buttons a{
+    font-size: 14px !important;
+}
+
+section > .row .card:last-child {
+    margin-bottom: 20px;
+}
+
+.navbar-default{
+  background-color: #FFFFFF !important;
+}
+
+/* Card Formulario */
+section > form .col-md-12 {
+    background: #eeebeb;
+}
+
+section > form .card {
+    background-color: #eeebeb;
+    margin: 0;
+    padding: 0 30px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+section > form .card .title h3 {
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 0;
+}
+
+section > form .card:last-child {
+    margin-bottom: 20px;
+}
+
+section > form > .buttons {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+#card_dependentes .card {
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+.atualizado-em {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-bottom: 0px !important;
+}
+
+/* remover zoom e seleção de texto */
+*:not(input) {
+    user-select: none;
+}
+.card .title h2{
+  font-size: 20px !important;
+}
